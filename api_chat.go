@@ -18,6 +18,7 @@ type ChatMessageResponse struct {
 	Answer         string `json:"answer"`
 	ConversationID string `json:"conversation_id"`
 	CreatedAt      int    `json:"created_at"`
+	Metadata         map[string]interface{} `json:"metadata"`
 }
 
 /* Create chat message
